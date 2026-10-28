@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{--white: #ffffff;
+      --white-transprent: #ffffffA4;
+      --light-green: #DDFEF3;
+      --lightest-green: #EEFFF9;
+      --dark-grey: #4D4C69;
+      --black: #000;}
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+body{font-size: 14px;
+     font-family: "Roboto", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
+     font-variation-settings: "wdth" 100;}
+
+header{background-image: url('media/praxis.png');
+       background-size: cover;
+       min-height: 300px;}
+
+.flex-container{display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;}
+
+.flex-container-column{display: flex;
+                       flex-direction: column;
+                       flex-wrap: nowrap;}
+
+.space-between{justify-content: space-between;}
+
+
+.responsive-menu-button{display: inline-flex;
+                        justify-content: center; 
+                        align-items: center;     
+                        width: 50px;
+                        height: 50px;
+                        font-size: 40px;
+                        background-color: var(--white);
+                        border-radius: 10px;
+                        border: none;}
+
+.button{cursor: pointer;
+        display: inline-flex;
+        justify-content: center; 
+        align-items: center;
+        border: none;
+        font-size: 1.1rem;}
+
+.open-cards-button{cursor: pointer;
+                   justify-content: center; 
+                   align-items: center;
+                   border: none;
+                   font-size: 1.1rem;
+                   padding: 5px;
+                   width: 100%;}
+
+.nav{display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     align-items: flex-end;}
+
+.nav a{font-weight: 600;
+       padding: 3px;}
+       
+.grid2x2{display: grid;
+        align-items: start;
+         grid-template-columns: 10fr 17fr;
+         grid-template-rows: auto auto;
+         gap: 20px;}
+
+.banner{width: 100%;
+        text-align: center;}
+
+.fit-content{width: fit-content;}
+
+.pic1-bg{background-image: url('media/praxis2.png');
+         background-size: cover;}
+
+.pic2-bg{background-image: url('media/calender.png');
+         background-size: cover;}
+
+.white-font{color: var(--white);}
+.white-bg{background-color: var(--white);}
+.gray-bg{background-color: var(--dark-grey);}
+.black-bg{background-color: var(--black);}
+.transparent-white-bg{background-color: var(--white-transprent);}
+.light-green-bg{background-color: var(--light-green);}
+.lightest-green-bg{background-color: var(--lightest-green);}
+
+.padding10{padding: 10px;}
+.padding30{padding: 30px;}
+.margin10{margin: 10px;}
+.margin20{margin: 20px;}
+
+.rounded-corners{border-radius: 10px;}
+.default-hide{display: none;}
+
+
+/*GENERATED*/
+.card-container {display: flex;
+                 flex-direction: column;
+                 overflow: hidden;
+                 max-height: 1000px;
+                 opacity: 1;
+                 transform: scaleY(1);
+                 transform-origin: top;
+                 transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.4s ease;}
+
+.card-container.hide{max-height: 0;
+                     opacity: 0;
+                     transform: scaleY(0);}
+
+.service-card {background-color: #707684; /* Grauer Ton wie im Bild */
+               color: #ffffff;
+               padding: 10px;
+               margin: 1px;
+               text-align: center;
+               font-weight: bold;
+               transition: transform 0.2s ease, background-color 0.2s ease;
+               cursor: pointer;}
+
+.service-card:hover {background-color: #5a5f6b;
+                     transform: translateY(-3px);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

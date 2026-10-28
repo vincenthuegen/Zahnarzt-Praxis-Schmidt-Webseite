@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praxis Dr. Schmidt</title>
+
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="flex-container-column space-between">
+        <div class="flex-container space-between">
+            <h1 class="white-bg padding10 centered-text">Praxis Dr. Schmidt</h1>
+            <button id="respo-button" class="responsive-menu-button margin10">&#9776;</button>
+        </div>
+        
+        <nav id="navigation" class="nav default-hide margin10 transparent-white-bg">
+            <a>Start</a>                    
+            <a>Leistungen</a>
+            <a>Termin-Buchung</a>
+        </nav>
+    
+        <p class="fit-content light-green-bg rounded-corners margin20 padding10">Zahnärzte in der Südstadt Hannover's</p>
+        <h3 class="transparent-white-bg padding30">Willkommen auf der Internetseite unserer Praxis</h3>
+    </header>
+
+    <main>
+        <section>
+            <div class="grid2x2 black-bg padding10">
+                <button class="button rounded-corners lightest-green-bg padding10">Termin buchen</button>
+                <p class="white-font">Online Terminbuchung</p>
+                <button  class="button rounded-corners lightest-green-bg padding10">Rezept bestellen</button>
+                <p class="white-font">Rezepte online anfordern</p>
+            </div>            
+        </section>
+
+        <section class="black-bg">
+            <div>
+                <h3 class="banner gray-bg padding10 white-font">Sprechzeiten</h3>
+            </div>
+                
+
+            <div class="grid2x2 padding10">
+                <label class="fit-content white-bg padding10">0511 / 48438823</label>
+                <p class="white-font">Praxistelefon</p>
+                <label class="fit-content white-bg padding10">Öffnungszeiten</label>
+                <p class="white-font">Montag - Donnerstag: 7:00 - 15:00 Uhr <br>
+                                      Freitags: 7:00 - 13:00 Uhr</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="padding10 pic1-bg">
+                <h3 class="banner gray-bg padding10 white-font">Leistungsübersicht</h3>
+                <p class="transparent-white-bg padding30">Unsere Leistungen sind umfassend und unsere Patientinnen und Patienten sollen sich vom Erstkontakt an wohlfühlen.</p>
+            </div>
+
+            <div>
+                <button id="open_menu_button" class="open-cards-button lightest-green-bg">&#8650;</button>
+                <div id="card-container" class="card-container">
+                    <!-- JavaScript schreiben -->
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="padding10 pic2-bg">
+                <h3 class="banner gray-bg padding10 white-font">Terminbuchung</h3>
+                <p class="white-bg padding30">Buchen Sie einen Termin und machen Sie Angaben zu Ihrem Behandlungswunsch.</p>
+            </div>
+
+            <div>
+                <div id="calender" class="">
+                    
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
